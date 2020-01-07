@@ -3,7 +3,7 @@ require('minitest/rg')
 require_relative("../card.rb")
 require_relative("../card_game.rb")
 
-class GuestTest < MiniTest::Test
+class CardGameTest < MiniTest::Test
 
   def setup
     @card1 = Card.new('hearts', 1)
